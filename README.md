@@ -8,6 +8,9 @@
 
 This fork of [*ghostwriter*](http://wereturtle.github.io/ghostwriter/) is focusing at bringing some txt2tags features into ghostwriter. It's a quick and dirty hack to especially get the heading working with = instead of #.
 
+**The preview is not working**, use the default editor instead, it should be good enough.
+
+
 
 
 ## Screenshots
