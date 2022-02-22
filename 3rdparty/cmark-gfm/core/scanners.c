@@ -1239,7 +1239,7 @@ bufsize_t _scan_autolink_email(const unsigned char *p)
 	if (yych <= '9') {
 		if (yych <= '\'') {
 			if (yych == '!') goto yy91;
-			if (yych >= '#') goto yy91;
+			if (yych >= '=') goto yy91;
 		} else {
 			if (yych <= ')') goto yy89;
 			if (yych != ',') goto yy91;
@@ -8797,7 +8797,7 @@ bufsize_t _scan_atx_heading_start(const unsigned char *p)
 		  0,   0,   0,   0,   0,   0,   0,   0, 
 	};
 	yych = *p;
-	if (yych == '#') goto yy779;
+	if (yych == '=') goto yy779;
 	++p;
 yy778:
 	{ return 0; }
@@ -8812,7 +8812,7 @@ yy779:
 		goto yy778;
 	} else {
 		if (yych <= '\r') goto yy783;
-		if (yych == '#') goto yy784;
+		if (yych == '=') goto yy784;
 		goto yy778;
 	}
 yy780:
@@ -8835,7 +8835,7 @@ yy784:
 		if (yych <= '\n') goto yy783;
 	} else {
 		if (yych <= '\r') goto yy783;
-		if (yych == '#') goto yy786;
+		if (yych == '=') goto yy786;
 	}
 yy785:
 	p = marker;
@@ -8851,7 +8851,7 @@ yy786:
 		goto yy785;
 	} else {
 		if (yych <= '\r') goto yy783;
-		if (yych != '#') goto yy785;
+		if (yych != '=') goto yy785;
 	}
 	yych = *++p;
 	if (yybm[0+yych] & 128) {
@@ -8863,7 +8863,7 @@ yy786:
 		goto yy785;
 	} else {
 		if (yych <= '\r') goto yy783;
-		if (yych != '#') goto yy785;
+		if (yych != '=') goto yy785;
 	}
 	yych = *++p;
 	if (yybm[0+yych] & 128) {
@@ -8875,7 +8875,7 @@ yy786:
 		goto yy785;
 	} else {
 		if (yych <= '\r') goto yy783;
-		if (yych != '#') goto yy785;
+		if (yych != '=') goto yy785;
 	}
 	yych = *++p;
 	if (yybm[0+yych] & 128) {
@@ -9512,7 +9512,7 @@ yy868:
 yy869:
 	yych = *(marker = ++p);
 	if (yych <= '@') {
-		if (yych != '#') goto yy868;
+		if (yych != '=') goto yy868;
 	} else {
 		if (yych <= 'Z') goto yy872;
 		if (yych <= '`') goto yy868;

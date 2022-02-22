@@ -646,6 +646,7 @@ static void process_emphasis(cmark_parser *parser, subject *subj, delimiter *sta
     openers_bottom[i]['_'] = stack_bottom;
     openers_bottom[i]['\''] = stack_bottom;
     openers_bottom[i]['"'] = stack_bottom;
+    openers_bottom[i]['/'] = stack_bottom;
   }
 
   // move back to first relevant delim.
@@ -681,7 +682,7 @@ static void process_emphasis(cmark_parser *parser, subject *subj, delimiter *sta
           closer = extension->insert_inline_from_delim(extension, parser, subj, opener, closer);
         else
           closer = closer->next;
-      } else if (closer->delim_char == '*' || closer->delim_char == '_') {
+      } else if (closer->delim_char == '*' || closer->delim_char == '_' || closer->delim_char == '/') {
         if (opener_found) {
           closer = S_insert_emph(subj, opener, closer);
         } else {

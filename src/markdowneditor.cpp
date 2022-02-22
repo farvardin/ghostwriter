@@ -985,14 +985,14 @@ void MarkdownEditor::italic()
 {
     Q_D(MarkdownEditor);
     
-    d->insertFormattingMarkup("*");
+    d->insertFormattingMarkup("//");
 }
 
 void MarkdownEditor::strikethrough()
 {
     Q_D(MarkdownEditor);
     
-    d->insertFormattingMarkup("~~");
+    d->insertFormattingMarkup("--");
 }
 
 void MarkdownEditor::insertComment()

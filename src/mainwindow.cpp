@@ -1325,7 +1325,7 @@ void MainWindow::buildSidebar()
     cheatSheetWidget->addItem(tr("#### Heading 4"));
     cheatSheetWidget->addItem(tr("##### Heading 5"));
     cheatSheetWidget->addItem(tr("###### Heading 6"));
-    cheatSheetWidget->addItem(tr("*Emphasis* _Emphasis_"));
+    cheatSheetWidget->addItem(tr("//Emphasis// _Emphasis_"));
     cheatSheetWidget->addItem(tr("**Strong** __Strong__"));
     cheatSheetWidget->addItem(tr("1. Numbered List"));
     cheatSheetWidget->addItem(tr("* Bullet List"));

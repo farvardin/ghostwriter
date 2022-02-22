@@ -270,7 +270,7 @@ static int S_render_node(cmark_renderer *renderer, cmark_node *node,
   case CMARK_NODE_HEADING:
     if (entering) {
       for (i = cmark_node_get_heading_level(node); i > 0; i--) {
-        LIT("#");
+        LIT("=");
       }
       LIT(" ");
       renderer->begin_content = true;
@@ -413,18 +413,10 @@ static int S_render_node(cmark_renderer *renderer, cmark_node *node,
     break;
 
   case CMARK_NODE_EMPH:
-    // If we have EMPH(EMPH(x)), we need to use *_x_*
-    // because **x** is STRONG(x):
-    if (node->parent && node->parent->type == CMARK_NODE_EMPH &&
-        node->next == NULL && node->prev == NULL) {
-      emph_delim = "_";
-    } else {
-      emph_delim = "*";
-    }
     if (entering) {
-      LIT(emph_delim);
+      LIT("//");
     } else {
-      LIT(emph_delim);
+      LIT("//");
     }
     break;
 

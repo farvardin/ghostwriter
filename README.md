@@ -4,7 +4,11 @@
 
 ![ubuntu-build](https://github.com/wereturtle/ghostwriter/workflows/ubuntu-build/badge.svg?branch=master) ![launchpad-ppa-build](https://github.com/wereturtle/ghostwriter/workflows/launchpad-ppa-build/badge.svg?branch=master) ![fedora-copr-build](https://github.com/wereturtle/ghostwriter/workflows/fedora-copr-build/badge.svg?branch=master)
 
-*ghostwriter* is a Windows and Linux text editor for Markdown, which is a plain text markup format created by John Gruber. For more information about Markdown, please visit John Gruber’s website at <http://www.daringfireball.net>.  *ghostwriter* provides a relaxing, distraction-free writing environment, whether your masterpiece be that next blog post, your school paper, or your NaNoWriMo novel.  For a tour of its features, please visit the [*ghostwriter* project page](http://wereturtle.github.io/ghostwriter/).
+*ghostwriter* is a Windows and Linux text editor for ~~Markdown~~ txt2tags, which is a plain text markup format. For more information about txt2tags, please visit its website at <https://txt2tags.org/>.  *ghostwriter* provides a relaxing, distraction-free writing environment, whether your masterpiece be that next blog post, your school paper, or your NaNoWriMo novel.  For a tour of its features, please visit the [*ghostwriter* project page](http://wereturtle.github.io/ghostwriter/).
+
+This fork of [*ghostwriter*](http://wereturtle.github.io/ghostwriter/) is focusing at bringing some txt2tags features into ghostwriter. It's a quick and dirty hack to especially get the heading working with = instead of #.
+
+
 
 ## Screenshots
 

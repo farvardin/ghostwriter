@@ -1023,8 +1023,8 @@
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="1328"/>
-        <source>*Emphasis* _Emphasis_</source>
-        <translation type="unfinished">*Emphase* _Emphase_</translation>
+        <source>//Emphasis// _Emphasis_</source>
+        <translation type="unfinished">//Emphase// _Emphase_</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="1329"/>

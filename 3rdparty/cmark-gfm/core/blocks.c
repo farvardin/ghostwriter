@@ -755,7 +755,7 @@ static void chop_trailing_hashtags(cmark_chunk *ch) {
   orig_n = n = ch->len - 1;
 
   // if string ends in space followed by #s, remove these:
-  while (n >= 0 && peek_at(ch, n) == '#')
+  while (n >= 0 && peek_at(ch, n) == '=')
     n--;
 
   // Check for a space before the final #s:
@@ -1126,9 +1126,9 @@ static void open_new_blocks(cmark_parser *parser, cmark_node **container,
       *container = add_child(parser, *container, CMARK_NODE_HEADING,
                              heading_startpos + 1);
 
-      hashpos = cmark_chunk_strchr(input, '#', parser->first_nonspace);
+      hashpos = cmark_chunk_strchr(input, '=', parser->first_nonspace);
 
-      while (peek_at(input, hashpos) == '#') {
+      while (peek_at(input, hashpos) == '=') {
         level++;
         hashpos++;
       }

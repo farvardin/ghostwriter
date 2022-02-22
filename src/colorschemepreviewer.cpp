@@ -56,13 +56,13 @@ QtAwesome *ColorSchemePreviewerPrivate::awesome = nullptr;
 
 const QString ColorSchemePreviewerPrivate::loremIpsum =
     "<p><h2><strong>"
-    "<font color='@headingMarkup'># </font>"
+    "<font color='@headingMarkup'>= </font>"
     "<font color='@headingText'>Lorem ipsum</font></strong></h2></p>"
     "<p>Lorem ipsum "
     "<em>"
-    "<font color='@emphasisMarkup'>*</font>"
+    "<font color='@emphasisMarkup'>//</font>"
     "<font color='@emphasisText'>dolor</font>"
-    "<font color='@emphasisMarkup'>*</font>"
+    "<font color='@emphasisMarkup'>//</font>"
     "</em> "
     "sit amet, "
     "<strong>"
