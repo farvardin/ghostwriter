@@ -99,13 +99,13 @@ InlineMarkupTogglePrivate::InlineMarkupTogglePrivate(
     switch (type)
     {
     case MarkdownNode::Emph:
-        markup = "*";
+        markup = "//";
         break;
     case MarkdownNode::Strong:
         markup = "**";
         break;
     case MarkdownNode::Strikethrough:
-        markup = "~~";
+        markup = "--";
         break;
     default:
         markup = "";

@@ -163,8 +163,8 @@ public:
 };
 
 const QString DocumentManagerPrivate::FILE_CHOOSER_FILTER =
-    QString("%1 (*.md *.markdown *.mdown *.mkdn *.mkd *.mdwn *.mdtxt *.mdtext *.text *.Rmd *.txt);;%2 (*.txt);;%3 (*)")
-    .arg(DocumentManager::tr("Markdown"))
+    QString("%1 (*.t2t *.txt *.md);;%2 (*.txt);;%3 (*)")
+    .arg(DocumentManager::tr("Txt2tags"))
     .arg(DocumentManager::tr("Text"))
     .arg(DocumentManager::tr("All"));
 
@@ -1029,7 +1029,7 @@ void DocumentManagerPrivate::createDraft()
 
         // Make sure draft file name is unique.
         do {
-            draftPath = draftLocation + "/" + draftName + "-" + QString::number(i) + ".md";
+            draftPath = draftLocation + "/" + draftName + "-" + QString::number(i) + ".t2t";
             i++;
         } while (QFileInfo(draftPath).exists());
 

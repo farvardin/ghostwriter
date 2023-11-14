@@ -39,7 +39,7 @@ bufsize_t houdini_unescape_ent(cmark_strbuf *ob, const uint8_t *src,
                                bufsize_t size) {
   bufsize_t i = 0;
 
-  if (size >= 3 && src[0] == '#') {
+  if (size >= 3 && src[0] == '=') {
     int codepoint = 0;
     int num_digits = 0;
 

@@ -35,7 +35,7 @@ static CMARK_INLINE void outc(cmark_renderer *renderer, cmark_node *node,
       c < 0x80 && escape != LITERAL &&
       ((escape == NORMAL &&
         (c < 0x20 ||
-	 c == '*' || c == '_' || c == '[' || c == ']' || c == '#' || c == '<' ||
+	 c == '*' || c == '_' || c == '[' || c == ']' || c == '=' || c == '<' ||
          c == '>' || c == '\\' || c == '`' || c == '~' || c == '!' ||
          (c == '&' && cmark_isalpha(nextc)) || (c == '!' && nextc == '[') ||
          (renderer->begin_content && (c == '-' || c == '+' || c == '=') &&
@@ -270,7 +270,7 @@ static int S_render_node(cmark_renderer *renderer, cmark_node *node,
   case CMARK_NODE_HEADING:
     if (entering) {
       for (i = cmark_node_get_heading_level(node); i > 0; i--) {
-        LIT("#");
+        LIT("=");
       }
       LIT(" ");
       renderer->begin_content = true;
@@ -422,9 +422,9 @@ static int S_render_node(cmark_renderer *renderer, cmark_node *node,
       emph_delim = "*";
     }
     if (entering) {
-      LIT(emph_delim);
+      LIT("//");
     } else {
-      LIT(emph_delim);
+      LIT("//");
     }
     break;
 

@@ -8785,7 +8785,7 @@ bufsize_t _scan_atx_heading_start(const unsigned char *p)
 		  0,   0,   0,   0,   0,   0,   0,   0, 
 	};
 	yych = *p;
-	if (yych == '#') goto yy776;
+	if (yych == '=') goto yy776;
 	++p;
 yy775:
 	{ return 0; }
@@ -8800,7 +8800,7 @@ yy776:
 		goto yy775;
 	} else {
 		if (yych <= '\r') goto yy780;
-		if (yych == '#') goto yy781;
+		if (yych == '=') goto yy781;
 		goto yy775;
 	}
 yy777:
@@ -8823,7 +8823,7 @@ yy781:
 		if (yych <= '\n') goto yy780;
 	} else {
 		if (yych <= '\r') goto yy780;
-		if (yych == '#') goto yy783;
+		if (yych == '=') goto yy783;
 	}
 yy782:
 	p = marker;
@@ -8839,7 +8839,7 @@ yy783:
 		goto yy782;
 	} else {
 		if (yych <= '\r') goto yy780;
-		if (yych != '#') goto yy782;
+		if (yych != '=') goto yy782;
 	}
 	yych = *++p;
 	if (yybm[0+yych] & 128) {
@@ -8851,7 +8851,7 @@ yy783:
 		goto yy782;
 	} else {
 		if (yych <= '\r') goto yy780;
-		if (yych != '#') goto yy782;
+		if (yych != '=') goto yy782;
 	}
 	yych = *++p;
 	if (yybm[0+yych] & 128) {
@@ -8863,7 +8863,7 @@ yy783:
 		goto yy782;
 	} else {
 		if (yych <= '\r') goto yy780;
-		if (yych != '#') goto yy782;
+		if (yych != '=') goto yy782;
 	}
 	yych = *++p;
 	if (yybm[0+yych] & 128) {
@@ -9500,7 +9500,7 @@ yy865:
 yy866:
 	yych = *(marker = ++p);
 	if (yych <= '@') {
-		if (yych != '#') goto yy865;
+		if (yych != '=') goto yy865;
 	} else {
 		if (yych <= 'Z') goto yy869;
 		if (yych <= '`') goto yy865;

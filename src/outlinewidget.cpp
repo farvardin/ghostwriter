@@ -209,7 +209,7 @@ void OutlineWidgetPrivate::reloadOutline()
 
         QTextBlock block = editor->document()->findBlockByNumber(heading->startLine() - 1);
 
-        QRegularExpression headingRegex("^\\s*#*(.*?)\\s*#*?\\s*$");
+        QRegularExpression headingRegex("^\\s*=*(.*?)\\s*=*?\\s*$");
         QRegularExpressionMatch match = headingRegex.match(block.text());
 
         if (match.isValid() && match.hasMatch()) {

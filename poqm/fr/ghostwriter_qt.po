@@ -762,27 +762,27 @@ msgstr "Afficher la barre latérale"
 #: src/mainwindow.cpp:1268
 msgctxt "ghostwriter::MainWindow|"
 msgid "# Heading 1"
-msgstr "# En-tête 1"
+msgstr "= En-tête 1 ="
 
 #: src/mainwindow.cpp:1269
 msgctxt "ghostwriter::MainWindow|"
 msgid "## Heading 2"
-msgstr "## En-tête 2"
+msgstr "== En-tête 2 =="
 
 #: src/mainwindow.cpp:1270
 msgctxt "ghostwriter::MainWindow|"
 msgid "### Heading 3"
-msgstr "### En-tête 3"
+msgstr "=== En-tête 3 ==="
 
 #: src/mainwindow.cpp:1271
 msgctxt "ghostwriter::MainWindow|"
 msgid "#### Heading 4"
-msgstr "#### En-tête 4"
+msgstr "==== En-tête 4 ===="
 
 #: src/mainwindow.cpp:1272
 msgctxt "ghostwriter::MainWindow|"
 msgid "##### Heading 5"
-msgstr "##### En-tête 5"
+msgstr "===== En-tête 5 ====="
 
 #: src/mainwindow.cpp:1273
 msgctxt "ghostwriter::MainWindow|"
@@ -791,8 +791,8 @@ msgstr "###### En-tête 6"
 
 #: src/mainwindow.cpp:1274
 msgctxt "ghostwriter::MainWindow|"
-msgid "*Emphasis* _Emphasis_"
-msgstr "*Emphase* _Emphase_"
+msgid "//Emphasis// _Emphasis_"
+msgstr "//Emphase// _Emphase_"
 
 #: src/mainwindow.cpp:1275
 msgctxt "ghostwriter::MainWindow|"
