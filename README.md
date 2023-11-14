@@ -11,7 +11,7 @@ This fork of [*ghostwriter*](http://wereturtle.github.io/ghostwriter/) is focusi
 
 Beware, the themes folder used to be ~/.config/ghostwriter/themes/ , it is now  ~/.local/share/ghostwriter/themes
 
-The config folder used to be ~/.config/ghostwriter/ghostwriter.conf it is now ~/kde.org/ghostwriter.conf
+The config folder used to be ~/.config/ghostwriter/ghostwriter.conf it is now ~/.config/kde.org/ghostwriter.conf
 
 ## Screenshots
 
