@@ -1,8 +1,8 @@
-# Vincenzo Reale <smart2128vr@gmail.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023 Vincenzo Reale <smart2128vr@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2023-07-04 16:22+0200\n"
+"PO-Revision-Date: 2023-12-22 14:09+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.04.2\n"
+"X-Generator: Lokalize 23.08.4\n"
 "X-Qt-Contexts: true\n"
 
 #: src/appmain.cpp:75
@@ -252,17 +252,17 @@ msgctxt "ghostwriter::MarkdownDocument|"
 msgid "untitled"
 msgstr "senza titolo"
 
-#: src/editor/markdowneditor.cpp:923
+#: src/editor/markdowneditor.cpp:924
 msgctxt "ghostwriter::MarkdownEditor|"
 msgid "Save Image"
 msgstr "Salva immagine"
 
-#: src/editor/markdowneditor.cpp:1534
+#: src/editor/markdowneditor.cpp:1535
 msgctxt "ghostwriter::MarkdownEditor|"
 msgid "Insert Image"
 msgstr "Inserisci immagine"
 
-#: src/editor/markdowneditor.cpp:2460
+#: src/editor/markdowneditor.cpp:2461
 #, qt-format
 msgctxt "ghostwriter::MarkdownEditor|"
 msgid "Images (%1)"
@@ -1000,6 +1000,156 @@ msgctxt "ghostwriter::PreferencesDialog|"
 msgid "Underline"
 msgstr "Sottolineato"
 
+#: src/settings/preferencesdialog.ui:14
+msgctxt "PreferencesDialog|"
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: src/settings/preferencesdialog.ui:24
+msgctxt "PreferencesDialog|"
+msgid "General"
+msgstr "Generale"
+
+#: src/settings/preferencesdialog.ui:30
+msgctxt "PreferencesDialog|"
+msgid "Display"
+msgstr "Visualizzazione"
+
+#: src/settings/preferencesdialog.ui:36
+msgctxt "PreferencesDialog|"
+msgid "&Show current time in full screen mode"
+msgstr "Mo&stra l'ora attuale in modalità a schermo intero"
+
+#: src/settings/preferencesdialog.ui:43
+msgctxt "PreferencesDialog|"
+msgid "&Hide menu bar in full screen mode"
+msgstr "Nascondi la barra dei menu in modalità a sc&hermo intero"
+
+#: src/settings/preferencesdialog.ui:50
+msgctxt "PreferencesDialog|"
+msgid "Show &Unbreakable Space"
+msgstr "Mos&tra spazio indivisibile"
+
+#: src/settings/preferencesdialog.ui:59
+msgctxt "PreferencesDialog|"
+msgid "Interface style"
+msgstr "Stile dell'interfaccia"
+
+#: src/settings/preferencesdialog.ui:90
+msgctxt "PreferencesDialog|"
+msgid "File Saving"
+msgstr "Salvataggio file"
+
+#: src/settings/preferencesdialog.ui:96
+msgctxt "PreferencesDialog|"
+msgid "&Auto save"
+msgstr "S&alvataggio automatico"
+
+#: src/settings/preferencesdialog.ui:103
+msgctxt "PreferencesDialog|"
+msgid "&Backup file on save"
+msgstr "File di &backup al salvataggio"
+
+#: src/settings/preferencesdialog.ui:110
+msgctxt "PreferencesDialog|"
+msgid "&View untitled drafts…"
+msgstr "&Visualizza le bozze senza titolo…"
+
+#: src/settings/preferencesdialog.ui:117
+msgctxt "PreferencesDialog|"
+msgid "&"
+msgstr "&"
+
+#: src/settings/preferencesdialog.ui:124
+msgctxt "PreferencesDialog|"
+msgid "&Select Backup Folder Location…"
+msgstr "&Seleziona la cartella di backup..."
+
+#: src/settings/preferencesdialog.ui:147
+msgctxt "PreferencesDialog|"
+msgid "Session"
+msgstr "Sessione"
+
+#: src/settings/preferencesdialog.ui:153
+msgctxt "PreferencesDialog|"
+msgid "&Remember recent files"
+msgstr "&Ricorda i file recenti"
+
+#: src/settings/preferencesdialog.ui:160
+msgctxt "PreferencesDialog|"
+msgid "&Open last file on startup"
+msgstr "Apri l'ultim&o file all'avvio"
+
+#: src/settings/preferencesdialog.ui:184
+msgctxt "PreferencesDialog|"
+msgid "Editor"
+msgstr "Editor"
+
+#: src/settings/preferencesdialog.ui:190
+msgctxt "PreferencesDialog|"
+msgid "Tabulation"
+msgstr "Tabulazione"
+
+#: src/settings/preferencesdialog.ui:196
+msgctxt "PreferencesDialog|"
+msgid "&Insert spaces for tabs"
+msgstr "&Inserisci spazi per le tabulazioni"
+
+#: src/settings/preferencesdialog.ui:205
+msgctxt "PreferencesDialog|"
+msgid "Tabulation width"
+msgstr "Larghezza della tabulazione"
+
+#: src/settings/preferencesdialog.ui:243
+msgctxt "PreferencesDialog|"
+msgid "Styling"
+msgstr "Stile"
+
+#: src/settings/preferencesdialog.ui:251
+msgctxt "PreferencesDialog|"
+msgid "Focus mode"
+msgstr "Messa a fuoco"
+
+#: src/settings/preferencesdialog.ui:264
+msgctxt "PreferencesDialog|"
+msgid "Editor width"
+msgstr "Larghezza dell'editor"
+
+#: src/settings/preferencesdialog.ui:277
+msgctxt "PreferencesDialog|"
+msgid "Blockquote style"
+msgstr "Stile dei blocchi di citazioni"
+
+#: src/settings/preferencesdialog.ui:290
+msgctxt "PreferencesDialog|"
+msgid "Emphasis style"
+msgstr "Stile di enfasi"
+
+#: src/settings/preferencesdialog.ui:305
+msgctxt "PreferencesDialog|"
+msgid "&Use large headings"
+msgstr "&Usa intestazioni grandi"
+
+#: src/settings/preferencesdialog.ui:328
+msgctxt "PreferencesDialog|"
+msgid "Typing"
+msgstr "Digitazione"
+
+#: src/settings/preferencesdialog.ui:334
+msgctxt "PreferencesDialog|"
+msgid "C&ycle bullet point markers"
+msgstr "&Scorri gli indicatori dei punti elenco"
+
+#: src/settings/preferencesdialog.ui:341
+msgctxt "PreferencesDialog|"
+msgid "&Automatically match characters"
+msgstr "Verific&a automaticamente i caratteri"
+
+#: src/settings/preferencesdialog.ui:348
+msgctxt "PreferencesDialog|"
+msgid "Customize &matched characters…"
+msgstr "Personalizza i caratteri corrispo&ndenti…"
+
 #: src/settings/previewoptionsdialog.cpp:51
 msgctxt "ghostwriter::PreviewOptionsDialog|"
 msgid "Preview Options"
@@ -1484,6 +1634,11 @@ msgctxt "ghostwriter::ThemeSelectionDialog|"
 msgid "Themes"
 msgstr "Temi"
 
+#: src/theme/themeselectiondialog.cpp:137
+msgctxt "ghostwriter::ThemeSelectionDialog|"
+msgid "Preview in dark mode"
+msgstr "Anteprima in modalità scura"
+
 #: src/theme/themeselectiondialog.cpp:145
 msgctxt "ghostwriter::ThemeSelectionDialog|"
 msgid "Edit..."
@@ -1519,111 +1674,3 @@ msgstr "Impossibile modificare il tema."
 msgctxt "ghostwriter::ThemeSelectionDialog|"
 msgid "Sorry, this is a built-in theme that cannot be edited."
 msgstr "Spiacenti, questo è un tema integrato che non può essere modificato."
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Preferences"
-#~ msgstr "Preferenze"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "General"
-#~ msgstr "Generale"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Editor"
-#~ msgstr "Editor"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Display"
-#~ msgstr "Visualizzazione"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Show current time in full screen mode"
-#~ msgstr "Mostra l'ora attuale in modalità a schermo intero"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Hide menu bar in full screen mode"
-#~ msgstr "Nascondi la barra dei menu in modalità a schermo intero"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Interface style"
-#~ msgstr "Stile dell'interfaccia"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "File Saving"
-#~ msgstr "Salvataggio file"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Auto save"
-#~ msgstr "Salvataggio automatico"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Backup file on save"
-#~ msgstr "File di backup al salvataggio"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "View untitled drafts..."
-#~ msgstr "Visualizza le bozze senza titolo..."
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Session"
-#~ msgstr "Sessione"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Remember recent files"
-#~ msgstr "Ricorda i file recenti"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Open last file on startup"
-#~ msgstr "Apri l'ultimo file all'avvio"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Tabulation"
-#~ msgstr "Tabulazione"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Insert spaces for tabs"
-#~ msgstr "Inserisci spazi per le tabulazioni"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Tabulation width"
-#~ msgstr "Larghezza della tabulazione"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Styling"
-#~ msgstr "Stile"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Focus mode"
-#~ msgstr "Messa a fuoco"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Editor width"
-#~ msgstr "Larghezza dell'editor"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Blockquote style"
-#~ msgstr "Stile dei blocchi di citazioni"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Emphasis style"
-#~ msgstr "Stile di enfasi"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Use large headings"
-#~ msgstr "Usa intestazioni grandi"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Typing"
-#~ msgstr "Digitazione"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Cycle bullet point markers"
-#~ msgstr "Scorri gli indicatori dei punti elenco"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Automatically match characters"
-#~ msgstr "Verifica automaticamente i caratteri"
-
-#~ msgctxt "ghostwriter::PreferencesDialog|"
-#~ msgid "Customize matched characters..."
-#~ msgstr "Personalizza i caratteri corrispondenti..."
