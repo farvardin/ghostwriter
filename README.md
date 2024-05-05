@@ -1,4 +1,4 @@
-# <img src="./resources/images/ghostwriter.svg" align="left" width="32" style="padding-right:5px"> ghostwriter-txt2tags
+# <img src="./resources/icons/sc-apps-ghostwriter.svg" align="left" width="32" style="padding-right:5px"> ghostwriter-txt2tags
 
 
 
@@ -6,7 +6,9 @@
 
 This fork of [*ghostwriter*](http://wereturtle.github.io/ghostwriter/) is focusing at bringing some txt2tags features into ghostwriter. It's a quick and dirty hack to especially get the heading working with = instead of #.
 
-**The preview is not working**, use the default editor instead, it should be good enough.
+**The preview might not working as expected**, use the default editor instead, it should be good enough.
+
+Get the binary on https://github.com/farvardin/ghostwriter/releases/
 
 
 Beware, the themes folder used to be ~/.config/ghostwriter/themes/ , it is now  ~/.local/share/ghostwriter/themes

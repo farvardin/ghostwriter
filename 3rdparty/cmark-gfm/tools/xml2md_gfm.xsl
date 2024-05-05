@@ -72,9 +72,9 @@ This XSLT stylesheet is a complement to xml2md.xsl with templates supporting Git
 <!-- Striked-through -->
 
 <xsl:template match="md:strikethrough">
-    <xsl:text>~~</xsl:text>
+    <xsl:text>--</xsl:text>
     <xsl:apply-templates select="md:*"/>
-    <xsl:text>~~</xsl:text>
+    <xsl:text>--</xsl:text>
 </xsl:template>
 
 </xsl:stylesheet>

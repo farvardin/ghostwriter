@@ -1265,26 +1265,27 @@ void MainWindow::buildSidebar()
     cheatSheetWidget->setSelectionMode(QAbstractItemView::NoSelection);
     cheatSheetWidget->setAlternatingRowColors(false);
 
-    cheatSheetWidget->addItem(tr("# Heading 1"));
-    cheatSheetWidget->addItem(tr("## Heading 2"));
-    cheatSheetWidget->addItem(tr("### Heading 3"));
-    cheatSheetWidget->addItem(tr("#### Heading 4"));
-    cheatSheetWidget->addItem(tr("##### Heading 5"));
-    cheatSheetWidget->addItem(tr("###### Heading 6"));
-    cheatSheetWidget->addItem(tr("//Emphasis// _Emphasis_"));
-    cheatSheetWidget->addItem(tr("**Strong** __Strong__"));
-    cheatSheetWidget->addItem(tr("1. Numbered List"));
-    cheatSheetWidget->addItem(tr("* Bullet List"));
-    cheatSheetWidget->addItem(tr("+ Bullet List"));
+    cheatSheetWidget->addItem(tr("= Heading 1 ="));
+    cheatSheetWidget->addItem(tr("== Heading 2 =="));
+    cheatSheetWidget->addItem(tr("=== Heading 3 ==="));
+    cheatSheetWidget->addItem(tr("==== Heading 4 ===="));
+    cheatSheetWidget->addItem(tr("===== Heading 5 ====="));
+    cheatSheetWidget->addItem(tr("====== Heading 6 ======"));
+    cheatSheetWidget->addItem(tr("% comment"));
+    cheatSheetWidget->addItem(tr("//Emphasis//"));
+    cheatSheetWidget->addItem(tr("**Strong**"));
+    cheatSheetWidget->addItem(tr("__Underline__"));
+    cheatSheetWidget->addItem(tr("--Strikeout--"));
     cheatSheetWidget->addItem(tr("- Bullet List"));
+    cheatSheetWidget->addItem(tr("+ Numbered List"));
     cheatSheetWidget->addItem(tr("> Block Quote"));
-    cheatSheetWidget->addItem(tr("`Code Span`"));
+    cheatSheetWidget->addItem(tr("``Code Span``"));
     cheatSheetWidget->addItem(tr("``` Code Block"));
-    cheatSheetWidget->addItem(tr("[Link](http://url.com \"Title\")"));
-    cheatSheetWidget->addItem(tr("[Reference Link][ID]"));
-    cheatSheetWidget->addItem(tr("[ID]: http://url.com \"Reference Definition\""));
-    cheatSheetWidget->addItem(tr("![Image](./image.jpg \"Title\")"));
-    cheatSheetWidget->addItem(tr("--- *** ___ Horizontal Rule"));
+    cheatSheetWidget->addItem(tr("[Link Title http://url.com"));
+    cheatSheetWidget->addItem(tr("[/image.jpg]"));
+    cheatSheetWidget->addItem(tr("| Table |   Item  |"));
+    cheatSheetWidget->addItem(tr("-------------------- Horizontal Line"));
+    cheatSheetWidget->addItem(tr("==================== Horizontal Line"));
 
     documentStatsWidget = new DocumentStatisticsWidget(this);
     documentStatsWidget->setSelectionMode(QAbstractItemView::NoSelection);
@@ -1334,10 +1335,10 @@ void MainWindow::buildSidebar()
     sidebar->setMinimumWidth(0.1 * QGuiApplication::primaryScreen()->availableSize().width());
     sidebar->setMaximumWidth(0.5 * QGuiApplication::primaryScreen()->availableSize().width());
 
-    sidebar->addTab(QChar(fa::hashtag), outlineWidget, tr("Outline"));
+    sidebar->addTab(QChar(fa::equals), outlineWidget, tr("Outline"));
     sidebar->addTab(QChar(fa::tachometeralt), sessionStatsWidget, tr("Session Statistics"));
     sidebar->addTab(QChar(fa::chartbar), documentStatsWidget, tr("Document Statistics"));
-    sidebar->addTab(QChar(fa::markdown), cheatSheetWidget, tr("Cheat Sheet"), "cheatSheetTab");
+    sidebar->addTab(QChar(fa::book), cheatSheetWidget, tr("Cheat Sheet"), "cheatSheetTab");
 
     int tabIndex = QSettings().value("sidebarCurrentTab", (int)FirstSidebarTab).toInt();
 

@@ -758,12 +758,12 @@ msgstr "Show Sidebar"
 #: src/mainwindow.cpp:1268
 msgctxt "ghostwriter::MainWindow|"
 msgid "# Heading 1"
-msgstr "# Heading 1"
+msgstr "= Heading 1 ="
 
 #: src/mainwindow.cpp:1269
 msgctxt "ghostwriter::MainWindow|"
 msgid "## Heading 2"
-msgstr "## Heading 2"
+msgstr "== Heading 2 =="
 
 #: src/mainwindow.cpp:1270
 msgctxt "ghostwriter::MainWindow|"
