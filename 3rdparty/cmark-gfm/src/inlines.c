@@ -691,7 +691,7 @@ static void process_emphasis(cmark_parser *parser, subject *subj, delimiter *sta
           closer = extension->insert_inline_from_delim(extension, parser, subj, opener, closer);
         else
           closer = closer->next;
-      } else if (closer->delim_char == '*' || closer->delim_char == '_' || closer->delim_char == '/') {
+      } else if (closer->delim_char == '*' || closer->delim_char == '_') {
         if (opener_found) {
           closer = S_insert_emph(subj, opener, closer);
         } else {

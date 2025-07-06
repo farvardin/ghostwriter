@@ -12,9 +12,12 @@ static cmark_node *match(cmark_syntax_extension *self, cmark_parser *parser,
   char buffer[101];
 
   if (character != '-')
-      return NULL;
+    return NULL;
 
-  delims = cmark_inline_parser_scan_delimiters(inline_parser, sizeof(buffer) - 1, '-', &left_flanking, &right_flanking, &punct_before, &punct_after);
+  delims = cmark_inline_parser_scan_delimiters(
+      inline_parser, sizeof(buffer) - 1, '-',
+      &left_flanking,
+      &right_flanking, &punct_before, &punct_after);
 
   memset(buffer, '-', delims);
   buffer[delims] = 0;
@@ -93,7 +96,7 @@ static int can_contain(cmark_syntax_extension *extension, cmark_node *node,
 static void commonmark_render(cmark_syntax_extension *extension,
                               cmark_renderer *renderer, cmark_node *node,
                               cmark_event_type ev_type, int options) {
-    renderer->out(renderer, node, "--", false, LITERAL);
+  renderer->out(renderer, node, "--", false, LITERAL);
 }
 
 static void latex_render(cmark_syntax_extension *extension,
@@ -135,7 +138,7 @@ static void html_render(cmark_syntax_extension *extension,
 static void plaintext_render(cmark_syntax_extension *extension,
                              cmark_renderer *renderer, cmark_node *node,
                              cmark_event_type ev_type, int options) {
-    renderer->out(renderer, node, "-", false, LITERAL);
+  renderer->out(renderer, node, "-", false, LITERAL);
 }
 
 cmark_syntax_extension *create_strikethrough_extension(void) {
