@@ -15,6 +15,10 @@ Beware, the themes folder used to be ~/.config/ghostwriter/themes/ , it is now  
 
 The config folder used to be ~/.config/ghostwriter/ghostwriter.conf it is now ~/.config/kde.org/ghostwriter.conf
 
+
+I didn't manage to compile it with QT6 and Kde foundation 6, because the later isn't available easily on Linux Mint 22. Maybe for next release...
+
+
 ## Screenshots
 
 You can view screenshots of the application at [*ghostwriter's* project site](https://ghostwriter.kde.org).
@@ -79,7 +83,9 @@ Before proceeding, ensure that you have the necessary packages installed for Qt 
 
 For Debian or Ubuntu distributions:
 
-    $ sudo apt install g++ qtbase5-dev libqt5svg5-dev qtmultimedia5-dev qtwebengine5-dev libqt5concurrent5 qttools5-dev-tools qttools5-dev libkf5coreaddons-dev libkf5xmlgui-dev libkf5configwidgets-dev libkf5sonnet-dev libkf5doctools5 libkf5doctools-dev cmake extra-cmake-modules
+    $ sudo apt install g++ qtbase5-dev libqt5svg5-dev qtmultimedia5-dev qtwebengine5-dev libqt5concurrent5 qttools5-dev-tools qttools5-dev libkf5coreaddons-dev libkf5xmlgui-dev libkf5configwidgets-dev libkf5sonnet-dev libkf5doctools5 libkf5doctools-dev cmake extra-cmake-modules qt6-base-dev qt6-base-dev-tools linguist-qt6 qt6-tools-dev qt6-svg-dev libqt6svg6 qt6-webchannel-dev qt6-webengine-dev
+    
+
 
 For Fedora:
 

@@ -976,7 +976,7 @@ msgstr "===== En-tête 5 ====="
 #: src/mainwindow.cpp:1258
 msgctxt "ghostwriter::MainWindow|"
 msgid "###### Heading 6"
-msgstr "###### En-tête 6"
+msgstr "====== En-tête 6 ======"
 
 #: src/mainwindow.cpp:1259
 msgctxt "ghostwriter::MainWindow|"

@@ -941,27 +941,27 @@ msgstr "== Heading 2 =="
 #: src/mainwindow.cpp:1255
 msgctxt "ghostwriter::MainWindow|"
 msgid "### Heading 3"
-msgstr "### Heading 3"
+msgstr "=== Heading 3 ==="
 
 #: src/mainwindow.cpp:1256
 msgctxt "ghostwriter::MainWindow|"
 msgid "#### Heading 4"
-msgstr "#### Heading 4"
+msgstr "==== Heading 4 ===="
 
 #: src/mainwindow.cpp:1257
 msgctxt "ghostwriter::MainWindow|"
 msgid "##### Heading 5"
-msgstr "##### Heading 5"
+msgstr "===== Heading 5 ====="
 
 #: src/mainwindow.cpp:1258
 msgctxt "ghostwriter::MainWindow|"
 msgid "###### Heading 6"
-msgstr "###### Heading 6"
+msgstr "====== Heading 6 ======"
 
 #: src/mainwindow.cpp:1259
 msgctxt "ghostwriter::MainWindow|"
 msgid "*Emphasis* _Emphasis_"
-msgstr "*Emphasis* _Emphasis_"
+msgstr "//Emphasis// _Emphasis_"
 
 #: src/mainwindow.cpp:1260
 msgctxt "ghostwriter::MainWindow|"

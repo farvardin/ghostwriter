@@ -6,7 +6,7 @@
    height="256"
    id="svg2"
    version="1.1"
-   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
    sodipodi:docname="sc-apps-ghostwriter.svg"
    inkscape:export-filename="/home/mustangsally/ghostwriter/resources/icons/hicolor/16x16/apps/ghostwriter.png"
    inkscape:export-xdpi="5.625"
@@ -90,22 +90,22 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="63.63961"
-     inkscape:cy="62.932504"
+     inkscape:zoom="2"
+     inkscape:cx="182"
+     inkscape:cy="223.25"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4316"
      showgrid="false"
      inkscape:object-paths="true"
      showguides="true"
      inkscape:guide-bbox="true"
      showborder="false"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1274"
-     inkscape:window-height="774"
-     inkscape:window-x="14"
-     inkscape:window-y="89"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="1280"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1" />
   <metadata
@@ -160,39 +160,16 @@
        id="path3781"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
-    <ellipse
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
-       id="path3783"
-       transform="matrix(0.98480775,0.17364817,-0.17364817,0.98480775,0,0)"
-       cx="246.74347"
-       cy="860.66589"
-       rx="26.60383"
-       ry="35.411854" />
-    <ellipse
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
-       id="path3783-5"
-       transform="matrix(0.98480775,-0.17364817,0.17364817,0.98480775,0,0)"
-       cx="5.4603462"
-       cy="905.13672"
-       rx="26.485374"
-       ry="35.411854" />
     <g
        id="g1"
-       transform="matrix(0.69571427,0,0,0.69571427,168.67284,483.48079)">
+       transform="matrix(0.92175977,0,0,0.92175977,288.7503,248.26913)">
       <g
          id="g4316"
          transform="matrix(1.275782,0,0,1.275782,-941.244,801.04732)"
          style="display:inline">
         <g
-           id="g4258">
-          <rect
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#65cb65;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.58485;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-             id="rect4050"
-             width="100.3973"
-             height="100.3973"
-             x="550.72308"
-             y="-92.9524"
-             ry="7.1304893" />
+           id="g4258"
+           transform="matrix(1.0910418,-1.186647,1.186647,1.0910418,-4.0183375,703.92684)">
           <path
              inkscape:connector-curvature="0"
              style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7;marker:none;enable-background:accumulate"
